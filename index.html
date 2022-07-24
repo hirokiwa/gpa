@@ -1,0 +1,705 @@
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <header>
+        <h1>立命館専用GPA計算ツール</h1>
+    </header>
+    <table border="1">
+        <tr>
+          <th class="left_column"></th>
+          <th>月</th>
+          <th>火</th>
+          <th>水</th>
+          <th>木</th>
+          <th>金</th>
+        </tr>
+        <tr>
+          <td class="left_column">1</td>
+          <td>
+            <div>
+                <select id="grade0">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit0">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade1" value="1">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit1" value="1">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade2" value="2">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit2" value="2">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade3" value="3">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit3" value="3">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade4" value="4">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit4" value="4">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="left_column">2</td>
+          <td>
+            <div>
+                <select id="grade5" value="5">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit5" value="5">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade6" value="6">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit6" value="6">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade7" value="7">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit7" value="7">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade8" value="8">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit8" value="8">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade9" value="9">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit9" value="9">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="left_column">3</td>
+          <td>
+            <div>
+                <select id="grade10" value="10">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit10" value="10">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade11" value="11">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit11" value="11">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade12" value="12">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit12" value="12">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade13" value="13">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit13" value="13">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade14" value="14">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit14" value="14">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="left_column">4</td>
+          <td>
+            <div>
+                <select id="grade15" value="15">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit15" value="15">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade16" value="16">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit16" value="16">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade17" value="17">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit17"value="17">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade18" value="18">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit18" value="18">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade19" value="19">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit19" value="19">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="left_column">5</td>
+          <td>
+            <div>
+                <select id="grade20" value="20">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit20" value="20">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade21" value="21">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit21" value="21">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade22" value="22">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit22" value="22">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade23" value="23">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit23" value="23">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade24" value="24">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit24" value="24">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="left_column">他</td>
+          <td>
+            <div>
+                <select id="grade25" value="25">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit25" value="25">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade26" value="26">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit26" value="26">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade27" value="27">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit27" value="27">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade28" value="28">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit28" value="28">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+          <td>
+            <div>
+                <select id="grade29" value="29">
+                    <option value="" selected disabled>評価　</option>
+                    <option value="5">A+</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div>
+                <select id="credit29" value="29">
+                    <option value="" selected disabled>単位数</option>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+          </td>
+        </tr>
+        
+      </table>
+  <button id="calculation" onclick="calculate_gpa()">計算</button>
+  <span id="result"></span>
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
